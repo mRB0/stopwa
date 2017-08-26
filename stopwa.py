@@ -15,7 +15,7 @@ def main(stdscr):
     curses.init_pair(2, curses.COLOR_GREEN, curses.COLOR_BLACK)
     
     stop = False
-    run = True
+    run = False
 
     start_time = perf_counter()
     paused_elapsed = 0
